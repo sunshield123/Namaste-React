@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <h1>test</h1>
+    <!-- SMART WILL ADD NOT REDNERED HERE IN THE APPLICATION -->
+    <div id="root">NOT RENDERED</div>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      const heading = React.createElement(
+        "h1",
+        { id: "first" },
+        "Welcome Everyone"
+      );
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(heading);
+    </script>
+  </body>
+</html>
