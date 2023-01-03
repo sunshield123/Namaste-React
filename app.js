@@ -15,7 +15,7 @@
 
 
 
-// transitive dependience
+// transitive dependience 
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
